@@ -12,7 +12,12 @@
 
 @media screen and (max-width: 425px) {
  .footer__links {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(5, auto);
+    gap: 32px;
+    margin-bottom: 48px;
  }
 }

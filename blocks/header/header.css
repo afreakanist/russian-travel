@@ -2,12 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  padding: 0 48px; /* 16 24 48 48*/
+  max-width: 1184px;
+  margin: 0 auto;
+  padding: 0 48px;
 }
 
 @media screen and (max-width: 768px) {
   .header {
-    padding: 0 24px;/* 3.125vw; */
+    padding: 0 24px;
   }
 }
 
